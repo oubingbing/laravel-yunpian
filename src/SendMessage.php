@@ -27,7 +27,7 @@ class SendMessage
      */
     public function sendSingle($mobile,$content)
     {
-        
+
         if (empty($mobile))
             return ['success'=>false, 'statusCode'=>500, 'responseData'=>['msg'=>'手机号码不能为空']];
 

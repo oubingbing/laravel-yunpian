@@ -1,5 +1,8 @@
 {
     "name": "bingbing/laravel_yunpian",
+    "description": "send message \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D yunpian message for laravel",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "bingbing",
@@ -7,5 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bing\\LaravelYunPian\\":"src/"
+        }
+    }
 }

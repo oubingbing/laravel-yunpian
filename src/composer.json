@@ -1,0 +1,16 @@
+{
+    "name": "bing/laravel-yunpian",
+    "description": "The Laravel Framework of yunpian",
+    "license": "MIT",
+    "author":[{
+        "name":"bing",
+        "email":"875307054@qq.com"
+    }],
+    "minimum-stability":"dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bing\\LaravelYunPian\\":"src/"
+        }
+    }
+}

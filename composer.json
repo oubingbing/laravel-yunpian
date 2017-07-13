@@ -1,0 +1,11 @@
+{
+    "name": "bingbing/laravel_yunpian",
+    "authors": [
+        {
+            "name": "bingbing",
+            "email": "875307054@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
